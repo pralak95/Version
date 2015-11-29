@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
-#include<process.h>// This is version 1.1.
+#include<process.h>// This is version 1.2
 #define MALLOC(p,type)\
 p=(type*)malloc(sizeof(type));\
 if(p==NULL)\
