@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
-#include<process.h>//next line needs to be there to show concept of dynamic mem alloc
+#include<process.h>// This is version 1.1.
 #define MALLOC(p,type)\
 p=(type*)malloc(sizeof(type));\
 if(p==NULL)\
